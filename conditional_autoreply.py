@@ -64,12 +64,12 @@ while True:
         
         # range assignments
         events = [
-            {'startdate': datetime(2025,10,15), 'enddate': datetime(2025,11,9), 'eventname': 'Samhain 2025'},
-            {'startdate': datetime(2024,2,1), 'enddate': datetime(2024,3,24), 'eventname': 'Eostre 2024'},
-            {'startdate': datetime(2024,10,1), 'enddate': datetime(2024,11,3), 'eventname': 'Samhain 2024'},
-            {'startdate': datetime(2023,2,1), 'enddate': datetime(2023,3,18), 'eventname': 'Eostre 2023'},
-            {'startdate': datetime(2023,7,1), 'enddate': datetime(2023,8,6), 'eventname': 'Unbind 2023'},
-            {'startdate': datetime(2022,10,1), 'enddate': datetime(2022,10,30), 'eventname': 'Third Harvest 2022'}]
+            {'startdate': datetime(2025,10,15), 'enddate': datetime(2025,11,9), 'eventname': 'Event1'},
+            {'startdate': datetime(2024,2,1), 'enddate': datetime(2024,3,24), 'eventname': 'Event2'},
+            {'startdate': datetime(2024,10,1), 'enddate': datetime(2024,11,3), 'eventname': 'Event3'},
+            {'startdate': datetime(2023,2,1), 'enddate': datetime(2023,3,18), 'eventname': 'Event4'},
+            {'startdate': datetime(2023,7,1), 'enddate': datetime(2023,8,6), 'eventname': 'Event4'},
+            {'startdate': datetime(2022,10,1), 'enddate': datetime(2022,10,30), 'eventname': 'Event5'}]
         
         eventdata = []
         
@@ -105,7 +105,7 @@ while True:
         names_on_the_list = distinct_names
         # names_on_the_list = set(['rgruver@gmail.com','faitpoms@gmail.com'])
 
-        subject="Samhain 2025"
+        subject="subject"
         
         while True: 
             try:
