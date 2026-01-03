@@ -7,6 +7,9 @@ and a different message with people who haven't emailed us before.
 We also wanted to product a live graph that showed the cumulative email responses. 
 This is a predictor of  attendance, and also can show increased rates of response 
 to interventions like posts or messages.
+
+![screenshot of plot](https://github.com/errorbesque/python-mail-scripts/blob/main/plot.jpg?raw=true)
+
 # notes
 I was frustrated by the manual process of having to vet the list (given the high number of people who were novel senders who were recognizable as known entities, this turned the previously easily-computable filter into an unpleasant 2-hour task).
 
