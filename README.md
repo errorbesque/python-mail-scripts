@@ -1,12 +1,13 @@
 # mail autoreplier project
 I tried to implement this day-of for our event, and it mostly worked.
 ## purpose
-The goal was to send an email with one message to people who have emailed us before, 
+This program serves two purposes:
+
+(1) We wanted to send an email with one message to people who have emailed us before, 
 and a different message with people who haven't emailed us before.
 
-We also wanted to product a live graph that showed the cumulative email responses. 
-This is a predictor of  attendance, and also can show increased rates of response 
-to interventions like posts or messages.
+(2) We also wanted to produce a live graph that showed the cumulative email responses. 
+This is a loose predictor of attendance (based on subjective observation), and also can show increased rates of response to interventions like posts or messages.
 
 ![screenshot of plot](https://github.com/errorbesque/python-mail-scripts/blob/main/plot.jpg?raw=true)
 
